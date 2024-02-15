@@ -9,6 +9,10 @@ namespace ProtectedMobs
         public byte Red = 255;
         public byte Blue = 255;
         public byte Green = 255;
+        public int SummonMob = 1;
+        public int Mode = 0;
+        public int Amt = 1;
+        public int Mode2Proj = 108;
 
         public void Write()
         {
